@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+	  *{
+	  margin: 0;
+	  padding: 0;
+	  }
+	  #snap{
+	  padding: 19px;
+	  }
+	  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+	</style>
+</head>
+<body class="bg-light">
+	<div class="container bg-dark  text-white">
+	<header>
+			
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand">little <span class="text-danger">Rose</span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <li class="active"><a class="text-danger" href="index.html">Home</a></li>
+     <li class="dropdown">
+           <a data-toggle="dropdown" href="#">Meny <span  class="caret"></span></a>
+            <ul class="dropdown-menu bg-dark">
+            <li><a class="text-warning" href="#Caffè Americano">Caffè Americano <span class="text-light">_________________________________49kr</span></a></li>
+            <li><a  class="text-warning" href="#Café Latte (or Café au lait)">Page Café Latte (or Café au lait) <span class="text-light">_____________________46kr</span> </a></li>
+            <li><a class="text-warning" href="#Cappuccino">Cappuccino <span class="text-light">_____________________________________55kr</span></a></li>
+		    <li><a class="text-warning" href="#Espresso">Espresso <span class="text-light">_______________________________________38kr</span></a></li>
+			<li><a class="text-warning" href="#Irish Coffee">Irish Coffee <span class="text-light">_____________________________________29kr</span></a></li>
+			  <li><a class="text-warning" href="#Vienna">Vienna <span class="text-light">_________________________________________35kr</span></a></li>
+          </ul>
+        </li>
+        <li><a href="Bokning_index.html">Boka Bord</a></li>
+        <li><a href="index_photoAlbum.html">Photo Album</a></li>
+		</ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+		<p>The first reliable documentation of the coffee tree and coffee drinking originates from 16th century Yemen on the Arabian Peninsula. Coffee was a controversial drink even then - in 1511 it was banned by Orthodox imams in a court in Mecca for its stimulating effects. A similar ban was imposed in Cairo, Egypt in 1532, after which the city's coffee houses and coffee warehouses were demolished.
+
+By the 17th century, coffee had spread throughout the Middle East, and visitors from the Western world began to hear about the drink. There was a lot of trade between Venice and Egyptian ports at this time, and it was through that trade that the coffee bean was introduced to Europe. Whether the drink was allowed to be drunk or not was initially widely discussed among Catholics. Discussions ended when Pope Clement VIII allowed the drink in 1600. The first European coffee house opened in Venice the same year.
+</p>
+		
+<div class="media">
+<img style="width:200px" height="200px"  class="d-flex mr-3" src="https://www.bing.com/th?id=AMMS_0fed3eb901dcf2df886c1032d3ad3ebf&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&cdv=1&dpr=1.25&pid=16.1" alt="Caffè Americano">
+<div class="media-body">
+<h4 id="Caffè Americano" class="mt-0 text-uppercase">Caffè Americano</h4><pe> 
+You can make this type of coffee quite simply by adding hot water t o a shot of espresso coffee. It has been said that American soldiers during WWII made this type of coffee to make their beverages last longer. It was then (apparently) adopted by American baristas after the war.</pe>
+</div>
+</div>
+
+
+<div class="media">
+<img style="width:200px" height="200px"  class="d-flex mr-3" src="tempsnip.png" alt="Café Latte (or Café au lait)">
+<div class="media-body">
+<h4 id="Café Latte (or Café au lait)" class="mt-0 text-uppercase">Café Latte (or Café au lait)</h4><pe> 
+A fairly popular option for coffee drinkers, a latte consists steamed (or scalded) milk and a single shot of coffee. It is usually quite frothy, and you’ll occasionally encounter cafes that don’t understand the difference between this and a flat white.</pe>
+</div>
+</div>
+			
+<div class="media">
+<img style="width:200px" height="200px" class="d-flex mr-3" src="https://th.bing.com/th/id/OIP.zsf44YX8fyqvjaBmcPI9XwHaFw?w=207&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="Cappuccino">
+<div class="media-body">
+<h4 id="Cappuccino" class="mt-0 text-uppercase">Cappuccino</h4><pe> 
+Possibly the most popular type of coffee in the world, a cappuccino consists of three layers (kind of like a cake). The first is a shot of espresso, then a shot of steamed milk, and finally the barista adds a layer of frothed, foamy milk. This final layer can also be topped with chocolate shavings or powder. Traditionally, Italians consumed this type of coffee at breakfast.</pe>
+</div>
+</div>
+
+			
+<div class="media">
+<img style="width:200px" height="200px" class="d-flex mr-3" src="https://th.bing.com/th/id/OIP.5dMAcTAX9UxvncLkVxMp-gAAAA?w=179&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="Espresso">
+<div class="media-body">
+<h4 id="Espresso" class="mt-0 text-uppercase">Espresso</h4><pe> 
+To make an espresso, shoot boiling water under high pressure through finely ground coffee beans and then pour into a tiny mug. Sounds simple right? Well, it’s surprisingly difficult to master. Espressos are the purest coffee experience you can get, and while they’re not for everyone, it can be a truly singular drinking experience when you find a good brew.</pe></div>
+</div>
+			
+<div class="media">
+<img style="width:200px" height="200px" class="d-flex mr-3" src="https://th.bing.com/th/id/OIP.3P2ORlq20u74qz2gLsx8tAAAAA?w=203&h=182&c=7&o=5&dpr=1.25&pid=1.7" alt="Irish Coffee">
+<div class="media-body">
+<h4 id="Irish Coffee" class="mt-0 text-uppercase">Irish Coffee</h4><pe>
+Too many of these and you might have to ‘just crash here, bro’, because this type of coffee is made with Irish whiskey, sugar, and a thick layer of cream on the top – and isn’t readily available in New Zealand cafes due to its alcohol content. They’re more often found in restaurants. Be warned, trying to make this with scotch and instant coffee doesn’t work … trust us.
+</pe></div>
+</div>
+	  
+<div class="media">
+<img style="width:200px" height="200px" class="d-flex mr-3" src="https://th.bing.com/th/id/OIP.y_D1p6qyuRR0korvbrxz6gHaFj?pid=Api&w=226&h=169&c=7&dpr=1,25" alt="Vienna">
+<div class="media-body">
+<h4 id="Vienna" class="mt-0 text-uppercase">Vienna</h4><pe>
+A Vienna is made by mixing two shots of strong espresso, and then adding whipped cream as a substitute for milk and sugar. The Vienna melds the strong flavours of a straight espresso, with the smoothness of sugary cream.</pe></div>
+</div>
+<hr>
+<div class="logo-preview">
+    <div class="instagram-logo"><div><div></div><div></div></div></div>
+</div>
+<footer style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFmWvA3y1FxAxEZk4WfOUICbegBL9yDvWflQ&usqp=CAU)"  class="w3-container w3-padding-64 w3-center w3-xlarge">
+  <a href="https://www.facebook.com/hossein.najm.54
+"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://instagram.com/h03ein_najm?r=nametag"><i class="fa fa-instagram"></i></a>
+  <a href=" https://www.snapchat.com/add/hingenen7"><i class="fa fa-snapchat"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  littleRose.com
+  </p>
+</footer>
+
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		
+		
+		<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</div>	
+	</body>
+
+
+
+</html>
